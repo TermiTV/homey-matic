@@ -2296,13 +2296,15 @@
     "homematic_measure_valve": {
       "type": "number",
       "title": {
-        "en": "Valve"
+        "en": "Valve",
+        "de": "Stellwert"
       },
       "getable": true,
       "setable": false,
       "insights": true,
       "units": {
-        "en": "%"
+        "en": "%",
+        "de": "%"
       },
       "min": 0,
       "max": 100,
@@ -2315,26 +2317,30 @@
           "id": "2",
           "title": {
             "en": "Open",
-            "nl": "Open"
+            "nl": "Open",
+            "de": "Offen"
           }
         },
         {
           "id": "0",
           "title": {
             "en": "Closed",
-            "nl": "Closed"
+            "nl": "Closed",
+            "de": "Geschlossen"
           }
         },
         {
           "id": "1",
           "title": {
             "en": "Tilted",
-            "nl": "Tilted"
+            "nl": "Tilted",
+            "de": "Gekippt"
           }
         }
       ],
       "title": {
-        "en": "State"
+        "en": "State",
+        "de": "Zustand"
       },
       "uiComponent": "picker",
       "getable": true,
@@ -2343,7 +2349,8 @@
     "homematic_thermostat_boost": {
       "type": "boolean",
       "title": {
-        "en": "Boost"
+        "en": "Boost",
+        "de": "Boost"
       },
       "uiComponent": "button",
       "getable": true,
@@ -2356,19 +2363,22 @@
           "id": "0",
           "title": {
             "en": "Auto",
-            "nl": "Auto"
+            "nl": "Auto",
+            "de": "Auto"
           }
         },
         {
           "id": "1",
           "title": {
             "en": "Manu",
-            "nl": "Manu"
+            "nl": "Manu",
+            "de": "Manu"
           }
         }
       ],
       "title": {
-        "en": "Mode"
+        "en": "Mode",
+        "de": "Modus"
       },
       "uiComponent": "picker",
       "getable": true,
@@ -2377,28 +2387,32 @@
     "homematic_thermostat_weekprofile": {
       "type": "enum",
       "title": {
-        "en": "Weekprofile"
+        "en": "Weekprofile",
+        "de": "Wochenprofil"
       },
       "values": [
         {
           "id": "1",
           "title": {
             "en": "1",
-            "nl": "1"
+            "nl": "1",
+            "de": "1"
           }
         },
         {
           "id": "2",
           "title": {
             "en": "2",
-            "nl": "2"
+            "nl": "2",
+            "de": "2"
           }
         },
         {
           "id": "3",
           "title": {
             "en": "3",
-            "nl": "3"
+            "nl": "3",
+            "de": "3"
           }
         }
       ],

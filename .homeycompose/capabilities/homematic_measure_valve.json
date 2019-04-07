@@ -1,13 +1,15 @@
 {
     "type": "number",
     "title": {
-        "en": "Valve"
+        "en": "Valve",
+        "de": "Stellwert"
     },
     "getable": true,
     "setable": false,
     "insights": true,
     "units": {
-        "en": "%"
+        "en": "%",
+        "de": "%"
     },
     "min": 0,
     "max": 100,
